@@ -62,7 +62,7 @@ def clicked():
 			for i in range(4):
 				if y[i]==m[i]:
 					c+=1
-			res = str(c) +" points. Try again"+str(n)
+			res = str(c) +" points. Try again"
 			l2.configure(text = res)
 		else:
 			res='Enter 4 digit number'
